@@ -34,34 +34,74 @@ $grays: map-merge(
   $grays
 );
 
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+// Accent colors
+// -------------------------
+$blue:                  #2E8BCC !default;
+$green:                 #339933 !default;
+$red:                   #E51400 !default;
+$yellow:                #ffc40d !default;
+$pink:                  #E671B8 !default;
+$purple:                #7B4F9D !default;
+$lime:                  #8CBF26 !default;
+$magenta: 			    #FF0097 !default;
+$teal: 				    #00ABA9 !default;
+// -------------------------
+$turquoise: 			#1abc9c !default;
+$green-sea: 			#16a085 !default;
+$emerald: 				#2ecc71 !default;
+$nephritis: 			#27ae60 !default;
+$peter-river: 			#3498db !default;
+$belize-hole: 			#2980b9 !default;
+$amethyst: 				#9b59b6 !default;
+$wisteria: 				#8e44ad !default;
+$wet-asphalt: 			#34495e !default;
+$midnight-blue: 		#2c3e50 !default;
+$sun-flower:			#f1c40f !default;
+$orange:				#f39c12 !default;
+$carrot:				#e67e22 !default;
+$pumpkin:				#d35400 !default;
+$alizarin:				#e74c3c !default;
+$pomegranate:			#c0392b !default;
+$clouds:				#ecf0f1 !default;
+$silver:				#bdc3c7 !default;
+$concrete:				#95a5a6 !default;
+$asbestos:				#7f8c8d !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $colors: map-merge(
   (
-    "blue":       $blue,
-    "indigo":     $indigo,
-    "purple":     $purple,
-    "pink":       $pink,
-    "red":        $red,
-    "orange":     $orange,
-    "yellow":     $yellow,
-    "green":      $green,
-    "teal":       $teal,
-    "cyan":       $cyan,
-    "white":      $white,
-    "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "blue":          $blue,
+    "purple":        $purple,
+    "pink":          $pink,
+    "lime":          $lime,
+    "magenta":       $magenta,
+    "turquoise":     $turquoise,
+    "peter-river":   $peter-river,
+    "belize-hole":   $belize-hole,
+    "emerald":       $emerald,
+    "nephritis":     $nephritis,
+    "green-sea":     $green-sea,
+    "red":           $red,
+    "wisteria":      $wisteria,
+    "wet-asphalt":   $wet-asphalt,
+    "orange":        $orange,
+    "midnight-blue": $midnight-blue,
+    "asbestos":      $asbestos,
+    "yellow":        $yellow,
+    "sun-flower":    $sun-flower,
+    "green":         $green,
+    "alizarin":      $alizarin,
+    "carrot":        $carrot,
+    "pomegranate":   $pomegranate,
+    "pumpkin":       $pumpkin,
+    "silver":        $silver,
+    "concrete":      $concrete,
+    "teal":          $teal,
+    "white":         $white,
+    "clouds":        $clouds,
+    "gray":          $gray-600,
+    "gray-dark":     $gray-800
   ),
   $colors
 );
@@ -69,7 +109,7 @@ $colors: map-merge(
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $peter-river !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
@@ -86,7 +126,31 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
-    "dark":       $dark
+    "dark":       $dark,
+    "purple":        $purple,
+    "pink":          $pink,
+    "lime":          $lime,
+    "magenta":       $magenta,
+    "turquoise":     $turquoise,
+    "belize-hole":   $belize-hole,
+    "emerald":       $emerald,
+    "nephritis":     $nephritis,
+    "green-sea":     $green-sea,
+    "wisteria":      $wisteria,
+    "wet-asphalt":   $wet-asphalt,
+    "orange":        $orange,
+    "midnight-blue": $midnight-blue,
+    "asbestos":      $asbestos,
+    "sun-flower":    $sun-flower,
+    "alizarin":      $alizarin,
+    "carrot":        $carrot,
+    "pomegranate":   $pomegranate,
+    "pumpkin":       $pumpkin,
+    "silver":        $silver,
+    "concrete":      $concrete,
+    "teal":          $teal,
+    "white":         $white,
+    "clouds":        $clouds
   ),
   $theme-colors
 );
@@ -107,6 +171,86 @@ $escaped-characters: (
   (">","%3e"),
   ("#","%23"),
 ) !default;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+$indigo: #3F51B5 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$orange:  #fd7e14 !default;
+$teal:    #20c997 !default;
+$mc:      #2C3D4F !default;
+$mcLight: #304C60 !default;
+$elegant:  #2E2E2E !default;
+$unique: #880E4F !default;
+$deep-purple: #512DA8 !default;
+$dark-green: #388E3C !default;
+$light-green: #8BC34A !default;
+$amber: #FFA000 !default;
+$brown: #795548 !default;
+$black:    #000 !default;
+
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "my":           $mc,
+    "my-light":     $mcLight,
+    "orange":       $orange,
+    "purple":       $purple,
+    "pink":         $pink,
+    "teal":         $teal,
+    "elegant":      $elegant,
+    "unique":       $unique,
+    "deep-purple":  $deep-purple,
+    "indigo":       $indigo,
+    "dark-green":   $dark-green,
+    "light-green":  $light-green,
+    "amber":        $amber,
+    "brown":        $brown,
+    "white":        $white,
+    "gray-1":       $gray-100,
+    "gray-2":       $gray-200,
+    "gray-3":       $gray-300,
+    "gray-4":       $gray-400,
+    "gray-5":       $gray-500,
+    "gray-6":       $gray-600,
+    "gray-7":       $gray-700,
+    "gray-8":       $gray-800,
+    "gray-9":       $gray-900,
+    "black":        $black
+  ),
+  $theme-colors
+);
+
+
+$emphasized-link-hover-darken-percentage: 15% !default;
+//////////////////////////////
+
 
 
 // Options
