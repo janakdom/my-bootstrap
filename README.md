@@ -12,9 +12,8 @@
 <h3 align="center">My Bootstrap</h3>
 It is my customized bootstrap
 
-
-
-
+# CDN
+- https://cdn.jsdelivr.net/gh/janakdom/my-bootstrap/
 
 ## What's included
 
